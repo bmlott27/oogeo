@@ -40,3 +40,6 @@ The API's geodatabase objects (`Workspace()`, `Table()`, and `Layer()`) are desi
 
 The [Bus Stop Distance Example](https://github.com/bmlott27/oogeo/blob/main/notebooks/Bus%20Stop%20Example.ipynb) shows how the Models API can be used to find the distance between geometries in two different datasets. The example modifies a parcels dataset by adding columns to the table and populating the columns with the name of and distance to the nearest bus stop. The bus stop data is stored in a separate dataset and PostGIS functions are used to help compare the data between the tables.
 
+#### CitiBike JSON Import Example
+
+The [CitiBike JSON Import Example](https://github.com/bmlott27/oogeo/blob/main/notebooks/CitiBike%20JSON%20Import%20Example.ipynb) demonstrates how the Models API can be used to import JSON into a PostGIS geodatabase. The example creates a new geodatabase to house the imported data, creates a table based on the data found in the JSON file, and loads the table with the JSON data. The data is also projected to a new coordinate system to be consistent with other datasets in our process.
