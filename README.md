@@ -20,6 +20,10 @@ The Models API was originally based on Esri's ArcPy library, but once the API ha
 
 This repository contains several examples of how the Models API can be used to process geographic data. The work performed in each example is described below:
 
+### Geometry Manipulation Example
+
+The [Geometry Manipulation Example](https://github.com/bmlott27/oogeo/blob/main/notebooks/Geometry%20Manipulation%20Examples.ipynb) demonstrates the basics of creating and manipulating geometries using the Models API, as well as some simple examples of comparing geometries spatially. This example only contains a small sample of the wide variety of functions available in the Models API for creating, comparing, and manipulating geometries. 
+
 ### Bus Stop Distance Example
 
 The [Bus Stop Distance Example](https://github.com/bmlott27/oogeo/blob/main/notebooks/Bus%20Stop%20Example.ipynb) shows how the Models API can be used to find the distance between geometries in two different datasets. The example modifies a parcels dataset by adding columns to the table and populating the columns with the name of and distance to the nearest bus stop. The bus stop data is stored in a separate dataset and PostGIS functions are used to help compare the data between the tables.
