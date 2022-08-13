@@ -1,0 +1,17 @@
+# ignore Esri temporary files
+*.lock
+*.esriaddin
+
+# ignore PyCharm files
+*.pyc
+*.py_*
+__pycache__
+.idea/
+
+# ignore Docker-related files
+.bash_history
+.ipython
+.pylintrc
+
+# ignore python notebook checkpoints
+notebooks/.ipynb_checkpoints/*
