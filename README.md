@@ -43,3 +43,9 @@ The [Bus Stop Distance Example](https://github.com/bmlott27/oogeo/blob/main/note
 #### CitiBike JSON Import Example
 
 The [CitiBike JSON Import Example](https://github.com/bmlott27/oogeo/blob/main/notebooks/CitiBike%20JSON%20Import%20Example.ipynb) demonstrates how the Models API can be used to import JSON into a PostGIS geodatabase. The example creates a new geodatabase to house the imported data, creates a table based on the data found in the JSON file, and loads the table with the JSON data. The data is also projected to a new coordinate system to be consistent with other datasets in our process.
+
+#### Data Migration Example
+
+The [Data Migration Example](https://github.com/bmlott27/oogeo/blob/main/notebooks/Data%20Migration%20Example.ipynb) demonstrates how the Models API can be used to perform common migration and transformation tasks on spatial datasets. The example shows how an existing dataset can be filtered (both spatially and by attribute) and reprojected to a new coordinate system. The example also shows how columns can be added, renamed, or dropped using the API.
+
+
