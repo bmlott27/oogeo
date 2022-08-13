@@ -18,4 +18,8 @@ The Models API was originally based on Esri's ArcPy library, but once the API ha
 
 ## About the Examples
 
-This repository contains several examples of how the Models API can be used to process geographic data.
+This repository contains several examples of how the Models API can be used to process geographic data. The work performed in each example is described below:
+
+### Bus Stop Distance Example
+
+The [Bus Stop Distance Example](https://github.com/bmlott27/oogeo/blob/main/notebooks/Bus%20Stop%20Example.ipynb) shows how the Models API can be used to find the distance between geometries in two different datasets. The example modifies a parcels dataset by adding columns to the table and populating the columns with the name of and distance to the nearest bus stop. The bus stop data is stored in a separate dataset and PostGIS functions are used to help compare the data between the tables.
