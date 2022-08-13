@@ -48,4 +48,10 @@ The [CitiBike JSON Import Example](https://github.com/bmlott27/oogeo/blob/main/n
 
 The [Data Migration Example](https://github.com/bmlott27/oogeo/blob/main/notebooks/Data%20Migration%20Example.ipynb) demonstrates how the Models API can be used to perform common migration and transformation tasks on spatial datasets. The example shows how an existing dataset can be filtered (both spatially and by attribute) and reprojected to a new coordinate system. The example also shows how columns can be added, renamed, or dropped using the API.
 
+#### Street Label Points Example
 
+The [Street Label Points Example](https://github.com/bmlott27/oogeo/blob/main/notebooks/Street%20Label%20Points%20Example.ipynb) demonstrates how the Models API was used to find the best locations for street labels based on their proximity to city blocks. The example finds the location points for each label and also determines the ideal rotation angle for the text (this was done to help support displaying the labels in reports and other projects).
+
+#### [Subway Stations Example](https://github.com/bmlott27/oogeo/blob/main/notebooks/Subway%20Stations%20Example.ipynb)
+
+The [Subway Stations Example](https://github.com/bmlott27/oogeo/blob/main/notebooks/Subway%20Stations%20Example.ipynb) demonstrates how the Models API can be used to extract data from one dataset and apply it to another based on spatial attributes. The example uses a points dataset containing subway names to associate subway names with polygons in a subway stations polygon dataset. The spatial relationships between the points and polygons are used to determine the names for the station polygons.
