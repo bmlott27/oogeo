@@ -1,4 +1,4 @@
-# Models API Samples
+# Models API Examples
 
 This repository contains several Jupyter Notebooks that demonstrate the `Models` API which I wrote for [Envelope](https://www.envelope.city/). The API contains many powerful functions for processing GIS data and is built entirely on open-source libraries.
 
