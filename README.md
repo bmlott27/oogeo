@@ -15,6 +15,7 @@ The Models API was originally based on Esri's ArcPy library, but once the API ha
     * `pandas` and `geopandas`
     * `shapely`
     * `matplotlib`
+    * `pyproj`
 
 ## About the Examples
 
